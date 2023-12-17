@@ -1,5 +1,5 @@
 # oicho-kabu
-### About Oicho-Kabu
+## About Oicho-Kabu
 Oicho-Kabu is a card game in which a group of players compete against the dealer to assemble a hand of cards whose value is as close as possible to 9. If the total of the hand exceeds 9, the first digit is excluded.
 
 The dealer wins if there is a tie between a player and the dealer.
@@ -26,5 +26,21 @@ Shippin (4-1) - Valid for players only. A two-card hand consisting of a 4 and a 
 If a hand’s total value is 3 or lower, then a third card must be taken.
 If a hand’s total value is 7 or higher, then a third card cannot be taken.
 
-### About this project
+## About this project
 The purpose of this project was to get familiar with test-driven development.
+
+## Installation
+
+1. **Clone the Repository:**
+    ```bash
+    git clone https://github.com/rafald1/oicho-kabu.git
+    cd oicho-kabu
+    ```
+2. **Run the Tests:**
+    ```bash
+    python -m unittest discover tests
+    ```
+3. **Run the Application:**
+    ```bash
+    python main.py
+    ```
